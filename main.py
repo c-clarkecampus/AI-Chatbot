@@ -1,7 +1,7 @@
 from openai import OpenAI
 import os
 
-
+#Getting api key from os
 api_key = os.getenv("CHATBOT_KEY")
 
 if not api_key:
